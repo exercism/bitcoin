@@ -1,0 +1,29 @@
+{
+  "language": "Bitcoin",
+  "slug": "bitcoin",
+  "active": false,
+  "blurb": "Bitcoin is a cryptocurrency with the most popular node implementation, 'Bitcoin Core', written in C++ and Python. Interesting tooling and test networks are available to learn more about how Bitcoin works.",
+  "version": 3,
+  "_comment" : {
+      "online_editor": {
+        "indent_style": "space",
+        "indent_size": 4,
+        "highlightjs_language": "csharp"
+      }
+  },
+  "status": {
+    "concept_exercises": false,
+    "test_runner": false,
+    "representer": false,
+    "analyzer": false
+  },
+  "files": {
+    "solution": ["%{pascal_slug}.cs"],
+    "test": ["%{pascal_slug}Tests.cs"],
+    "example": [".meta/Example.cs"],
+    "exemplar": [".meta/Exemplar.cs"]
+  },
+  "test_runner": {
+    "average_run_time": 2.3
+  }
+}
